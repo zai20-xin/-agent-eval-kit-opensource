@@ -1,0 +1,17 @@
+{
+  "agent": "opencode",
+  "task": "T1",
+  "run": "run3",
+  "model": "mimo-v2.5-free",
+  "model_confirmed": true,
+  "source": "opencode export ses_f716642b9ffe76X44i6H0DbRJw",
+  "hit": false,
+  "metric": {
+    "required": 3,
+    "read": 3,
+    "missing": []
+  },
+  "detail": "全部 3 个源文件均已读取",
+  "valid": true,
+  "valid_reason": "steps=3"
+}

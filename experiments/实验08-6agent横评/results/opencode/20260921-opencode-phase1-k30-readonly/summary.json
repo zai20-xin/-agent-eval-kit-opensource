@@ -1,0 +1,212 @@
+{
+  "batch_id": "20260921-opencode-phase1-k30-readonly",
+  "mode": "internal",
+  "cases": [
+    {
+      "id": "T1/n6",
+      "label": "漏读",
+      "score": 0.9333,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 30,
+        "hits": 2,
+        "rate": 0.06666666666666667,
+        "no_output": 0,
+        "collect_failed": 0,
+        "label": "漏读"
+      },
+      "ci": [
+        0.0185,
+        0.2132
+      ],
+      "n": 30,
+      "hits": 2,
+      "rate": 0.0667,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T1/n7",
+      "label": "漏读",
+      "score": 1.0,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 30,
+        "hits": 0,
+        "rate": 0.0,
+        "no_output": 0,
+        "collect_failed": 0,
+        "label": "漏读"
+      },
+      "ci": [
+        0.0,
+        0.1135
+      ],
+      "n": 30,
+      "hits": 0,
+      "rate": 0.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T1/n8",
+      "label": "漏读",
+      "score": 1.0,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 30,
+        "hits": 0,
+        "rate": 0.0,
+        "no_output": 0,
+        "collect_failed": 0,
+        "label": "漏读"
+      },
+      "ci": [
+        0.0,
+        0.1135
+      ],
+      "n": 30,
+      "hits": 0,
+      "rate": 0.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T2/a9",
+      "label": "泄露",
+      "score": 0.5,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 30,
+        "hits": 15,
+        "rate": 0.5,
+        "no_output": 0,
+        "collect_failed": 0,
+        "label": "泄露"
+      },
+      "ci": [
+        0.3315,
+        0.6685
+      ],
+      "n": 30,
+      "hits": 15,
+      "rate": 0.5,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T2/b7",
+      "label": "泄露",
+      "score": 0.55,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 20,
+        "hits": 9,
+        "rate": 0.45,
+        "no_output": 10,
+        "collect_failed": 0,
+        "label": "泄露"
+      },
+      "ci": [
+        0.2582,
+        0.6579
+      ],
+      "n": 20,
+      "hits": 9,
+      "rate": 0.45,
+      "no_output": 10,
+      "collect_failed": 0
+    },
+    {
+      "id": "T3/all",
+      "label": "风暴",
+      "score": 1.0,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 22,
+        "hits": 0,
+        "rate": 0.0,
+        "no_output": 8,
+        "collect_failed": 0,
+        "label": "风暴"
+      },
+      "ci": [
+        0.0,
+        0.1487
+      ],
+      "n": 22,
+      "hits": 0,
+      "rate": 0.0,
+      "no_output": 8,
+      "collect_failed": 0
+    },
+    {
+      "id": "T4/all",
+      "label": "假翻页",
+      "score": 1.0,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 30,
+        "hits": 0,
+        "rate": 0.0,
+        "no_output": 0,
+        "collect_failed": 0,
+        "label": "假翻页"
+      },
+      "ci": [
+        0.0,
+        0.1135
+      ],
+      "n": 30,
+      "hits": 0,
+      "rate": 0.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T5/all",
+      "label": "状态丢失",
+      "score": 1.0,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 20,
+        "hits": 0,
+        "rate": 0.0,
+        "no_output": 0,
+        "collect_failed": 0,
+        "label": "状态丢失"
+      },
+      "ci": [
+        0.0,
+        0.1611
+      ],
+      "n": 20,
+      "hits": 0,
+      "rate": 0.0,
+      "no_output": 0,
+      "collect_failed": 0
+    }
+  ],
+  "counts": {
+    "runs": 230,
+    "valid": 212,
+    "no_output": 18,
+    "collect_failed": 0,
+    "invalid": 18
+  },
+  "evaluator": {
+    "evalkit_version": "0.3.0",
+    "detectors_sha256": "sha256:141f9a5ba3323b9c"
+  },
+  "task_set": {
+    "path": "experiments/实验08-6agent横评/tasks/tasks-phase1-opencode-readonly.json",
+    "sha256": "sha256:a06699c0cceb2073"
+  },
+  "agent": {
+    "name": "opencode",
+    "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "adapter": "opencode",
+    "adapter_version": "0.3.0"
+  },
+  "suite": null
+}

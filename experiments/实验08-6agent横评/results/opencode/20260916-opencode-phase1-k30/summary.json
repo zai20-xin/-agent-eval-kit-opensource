@@ -1,0 +1,130 @@
+{
+  "batch_id": "20260916-opencode-phase1-k30",
+  "cases": [
+    {
+      "id": "T1/n6",
+      "label": "漏读",
+      "n": 30,
+      "hits": 1,
+      "rate": 0.0333,
+      "ci": [
+        0.0059,
+        0.1667
+      ],
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T1/n7",
+      "label": "漏读",
+      "n": 30,
+      "hits": 0,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.1135
+      ],
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T1/n8",
+      "label": "漏读",
+      "n": 30,
+      "hits": 0,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.1135
+      ],
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T2/a9",
+      "label": "泄露",
+      "n": 30,
+      "hits": 15,
+      "rate": 0.5,
+      "ci": [
+        0.3315,
+        0.6685
+      ],
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T2/b7",
+      "label": "泄露",
+      "n": 20,
+      "hits": 9,
+      "rate": 0.45,
+      "ci": [
+        0.2582,
+        0.6579
+      ],
+      "no_output": 10,
+      "collect_failed": 0
+    },
+    {
+      "id": "T3/all",
+      "label": "风暴",
+      "n": 22,
+      "hits": 0,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.1487
+      ],
+      "no_output": 8,
+      "collect_failed": 0
+    },
+    {
+      "id": "T4/all",
+      "label": "假翻页",
+      "n": 30,
+      "hits": 0,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.1135
+      ],
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "T5/all",
+      "label": "状态丢失",
+      "n": 20,
+      "hits": 0,
+      "rate": 0.0,
+      "ci": [
+        0.0,
+        0.1611
+      ],
+      "no_output": 0,
+      "collect_failed": 0
+    }
+  ],
+  "counts": {
+    "runs": 230,
+    "valid": 212,
+    "no_output": 18,
+    "collect_failed": 0,
+    "invalid": 18
+  },
+  "evaluator": {
+    "evalkit_version": "0.3.0",
+    "detectors_sha256": "sha256:1773e09b79c92945"
+  },
+  "task_set": {
+    "path": "<repo>/experiments/实验08-6agent横评/tasks/tasks-phase1-opencode.json",
+    "sha256": "sha256:d0843d03af2c0e92"
+  },
+  "agent": {
+    "name": "opencode",
+    "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+    "adapter": "opencode",
+    "adapter_version": "0.3.0"
+  }
+}

@@ -1,0 +1,1598 @@
+{
+ "c01_basic": {
+  "case": {
+   "id": "c01_basic",
+   "cat": "基准",
+   "prompt": "帮我创建一个订单：订单号 A20260907001，金额 128.5，币种 CNY，日期 2026-09-07",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "A20260907001",
+    "amount": 128.5,
+    "currency": "CNY",
+    "date": "2026-09-07"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-1309e069-7381-4c4a-97c5-8d20a17c292f",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-07",
+      "order_id": "A20260907001",
+      "amount": 128.5,
+      "currency": "CNY"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-12b6b455-b565-4f6d-8273-b5b018619839",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "A20260907001",
+      "amount": 128.5,
+      "currency": "CNY",
+      "date": "2026-09-07"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-38621740-54d8-4ec2-b4ca-1af4c235b0ce",
+     "name": "create_order",
+     "arguments": {
+      "amount": 128.5,
+      "order_id": "A20260907001",
+      "date": "2026-09-07",
+      "currency": "CNY"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-f344849d-a331-49f7-b52e-99e04ac69069",
+     "name": "create_order",
+     "arguments": {
+      "currency": "CNY",
+      "amount": 128.5,
+      "order_id": "A20260907001",
+      "date": "2026-09-07"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-a1546d15-152d-45d5-b381-896b8bb7ce97",
+     "name": "create_order",
+     "arguments": {
+      "amount": 128.5,
+      "currency": "CNY",
+      "order_id": "A20260907001",
+      "date": "2026-09-07"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c03_leading_zero": {
+  "case": {
+   "id": "c03_leading_zero",
+   "cat": "前导零",
+   "prompt": "创建订单，订单号 007，金额 12，币种 USD，日期 2026-09-09",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "007",
+    "amount": 12.0,
+    "currency": "USD",
+    "date": "2026-09-09"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-2dc9a752-758b-41fc-a342-36ac23139ebb",
+     "name": "create_order",
+     "arguments": {
+      "amount": 12,
+      "date": "2026-09-09",
+      "currency": "USD",
+      "order_id": "007"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-e0788b1e-69bf-48fc-9c80-0d25bbcd166e",
+     "name": "create_order",
+     "arguments": {
+      "amount": 12,
+      "date": "2026-09-09",
+      "order_id": "007",
+      "currency": "USD"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-6618ec74-3bd2-4f0a-82be-f0047b4783d2",
+     "name": "create_order",
+     "arguments": {
+      "amount": 12,
+      "date": "2026-09-09",
+      "order_id": "007",
+      "currency": "USD"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-05df9e13-96a7-4425-8d53-22e4526d7603",
+     "name": "create_order",
+     "arguments": {
+      "amount": 12,
+      "currency": "USD",
+      "date": "2026-09-09",
+      "order_id": "007"
+     }
+    },
+    "turns": 3,
+    "stats": {
+     "llm_calls": 3,
+     "tool_calls": 2,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-2ff96773-0a9a-46ac-ae25-3dc480a7f1a6",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-09",
+      "order_id": "007",
+      "currency": "USD",
+      "amount": 12
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c02_long_num_id": {
+  "case": {
+   "id": "c02_long_num_id",
+   "cat": "长数字串",
+   "prompt": "创建订单，订单号 2026090700189234，金额 99.9，币种 CNY，日期 2026-09-08",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "2026090700189234",
+    "amount": 99.9,
+    "currency": "CNY",
+    "date": "2026-09-08"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-60103fa9-07d7-498c-9af1-04eba8f5e167",
+     "name": "create_order",
+     "arguments": {
+      "currency": "CNY",
+      "date": "2026-09-08",
+      "amount": 99.9,
+      "order_id": "2026090700189234"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-ffc0ea71-00e4-4e60-8464-e640c4554091",
+     "name": "create_order",
+     "arguments": {
+      "amount": 99.9,
+      "date": "2026-09-08",
+      "currency": "CNY",
+      "order_id": "2026090700189234"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-493051d3-eef2-4460-863c-8e39db3af735",
+     "name": "create_order",
+     "arguments": {
+      "currency": "CNY",
+      "amount": 99.9,
+      "date": "2026-09-08",
+      "order_id": "2026090700189234"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-a626a3fe-8854-4ed6-9ff8-c06e6079640e",
+     "name": "create_order",
+     "arguments": {
+      "amount": 99.9,
+      "currency": "CNY",
+      "date": "2026-09-08",
+      "order_id": "2026090700189234"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-016f1c64-27a5-41e2-8a2c-870098febe84",
+     "name": "create_order",
+     "arguments": {
+      "currency": "CNY",
+      "order_id": "2026090700189234",
+      "date": "2026-09-08",
+      "amount": 99.9
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 3,
+     "tool_errors": 1,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c04_amount_comma": {
+  "case": {
+   "id": "c04_amount_comma",
+   "cat": "金额带逗号",
+   "prompt": "创建订单，订单号 B100，金额 1,280.00，币种 CNY，日期 2026-09-10",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "B100",
+    "amount": 1280.0,
+    "currency": "CNY",
+    "date": "2026-09-10"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-71290375-1e02-4199-aa68-47fe6bf70280",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "B100",
+      "currency": "CNY",
+      "amount": 1280,
+      "date": "2026-09-10"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-aa6b6951-7570-4928-ae01-c4e9800cef69",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "B100",
+      "currency": "CNY",
+      "date": "2026-09-10",
+      "amount": 1280
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-9852a109-de22-45ca-a062-c12707a50fe8",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-10",
+      "currency": "CNY",
+      "order_id": "B100",
+      "amount": 1280
+     }
+    },
+    "turns": 5,
+    "stats": {
+     "llm_calls": 5,
+     "tool_calls": 4,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-d425b710-ae9c-4bf4-b799-ebf6fcc0dd0f",
+     "name": "create_order",
+     "arguments": {
+      "currency": "CNY",
+      "date": "2026-09-10",
+      "order_id": "B100",
+      "amount": 1280
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-bd0f19b7-5f49-47de-8f32-24c6add0434c",
+     "name": "create_order",
+     "arguments": {
+      "currency": "CNY",
+      "order_id": "B100",
+      "date": "2026-09-10",
+      "amount": 1280
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c05_amount_cn": {
+  "case": {
+   "id": "c05_amount_cn",
+   "cat": "中文金额",
+   "prompt": "创建订单，订单号 C200，金额一千二百八十元，币种 CNY，日期 2026-09-11",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "C200",
+    "amount": 1280.0,
+    "currency": "CNY",
+    "date": "2026-09-11"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-1c910882-f283-48a9-bc09-00f848900e31",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "C200",
+      "amount": 1280,
+      "date": "2026-09-11",
+      "currency": "CNY"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-23e1a44e-d38c-4f53-a811-888c98617c8a",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-11",
+      "order_id": "C200",
+      "amount": 1280,
+      "currency": "CNY"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-1b687c90-48ed-4bc4-8772-14fe95af1aca",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "C200",
+      "amount": 1280,
+      "date": "2026-09-11",
+      "currency": "CNY"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-80f3b564-d44d-412a-bbc4-b65fc9cc2f43",
+     "name": "create_order",
+     "arguments": {
+      "currency": "CNY",
+      "order_id": "C200",
+      "date": "2026-09-11",
+      "amount": 1280
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-1124d5d2-65f6-4cfc-ad59-f98bd9513ee4",
+     "name": "create_order",
+     "arguments": {
+      "amount": 1280,
+      "currency": "CNY",
+      "date": "2026-09-11",
+      "order_id": "C200"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c06_date_cn": {
+  "case": {
+   "id": "c06_date_cn",
+   "cat": "中文日期",
+   "prompt": "创建订单，订单号 D300，金额 66.6，币种 EUR，日期是 2026年10月1日",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "D300",
+    "amount": 66.6,
+    "currency": "EUR",
+    "date": "2026-10-01"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-67d0a219-04b3-4bad-9cee-3dc5bd7f7ca7",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "D300",
+      "amount": 66.6,
+      "date": "2026-10-01",
+      "currency": "EUR"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-6310b270-79d5-4b94-93d8-62fcc5bc9d4f",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "D300",
+      "date": "2026-10-01",
+      "amount": 66.6,
+      "currency": "EUR"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-e1b15f8b-4048-4b4a-8d01-e1f4a00df0d4",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-10-01",
+      "order_id": "D300",
+      "amount": 66.6,
+      "currency": "EUR"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-52715357-0901-4d04-b746-5ef2cf3d445f",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-10-01",
+      "order_id": "D300",
+      "amount": 66.6,
+      "currency": "EUR"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-ae9569f2-0db8-4718-9cb3-911d1fd7c1de",
+     "name": "create_order",
+     "arguments": {
+      "amount": 66.6,
+      "date": "2026-10-01",
+      "order_id": "D300",
+      "currency": "EUR"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c07_currency_lower": {
+  "case": {
+   "id": "c07_currency_lower",
+   "cat": "币种小写",
+   "prompt": "创建订单，订单号 E400，金额 88，币种 usd，日期 2026-09-12",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "E400",
+    "amount": 88.0,
+    "currency": "USD",
+    "date": "2026-09-12"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-0006dd86-3b7d-437c-ba02-111a63defa3c",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-12",
+      "order_id": "E400",
+      "amount": 88,
+      "currency": "USD"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-6148fa66-24b6-4203-9fca-266a70a78c0a",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-12",
+      "amount": 88,
+      "order_id": "E400",
+      "currency": "USD"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-2f346b69-0ff6-44a5-9065-0405840166e6",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "E400",
+      "currency": "USD",
+      "amount": 88,
+      "date": "2026-09-12"
+     }
+    },
+    "turns": 3,
+    "stats": {
+     "llm_calls": 3,
+     "tool_calls": 2,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-87406950-2e83-4217-95b3-97707787436a",
+     "name": "create_order",
+     "arguments": {
+      "currency": "USD",
+      "date": "2026-09-12",
+      "order_id": "E400",
+      "amount": 88
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-79d1c249-b608-4155-ab89-3c1258d6ca19",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "E400",
+      "amount": 88,
+      "currency": "USD",
+      "date": "2026-09-12"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c08_path_space": {
+  "case": {
+   "id": "c08_path_space",
+   "cat": "路径含空格",
+   "prompt": "读取文件 /tmp/my file.txt 的内容",
+   "tool": "read_file",
+   "expect": {
+    "path": "/tmp/my file.txt"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-751e71ad-b2eb-4e95-bd33-8a7078548132",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/my file.txt"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-1b3f820a-97eb-44c5-9487-94e0c28153a9",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/my file.txt"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-f11b3cfc-0ecc-4881-a9e4-82e4f2a529d1",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/my file.txt"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-a56a7991-2f4c-486a-bcb0-9ce795085e44",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/my file.txt"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-7c940121-8c32-4c8c-bc69-dda8a301279d",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/my file.txt"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c09_path_unicode": {
+  "case": {
+   "id": "c09_path_unicode",
+   "cat": "路径含中文",
+   "prompt": "读取文件 /tmp/订单 详情.txt 的内容",
+   "tool": "read_file",
+   "expect": {
+    "path": "/tmp/订单 详情.txt"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-daabf25c-a434-430e-88cb-578cfbcd3d46",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/订单 详情.txt"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-1058b6db-f922-4088-b071-5a34a1899bb4",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/订单 详情.txt"
+     }
+    },
+    "turns": 3,
+    "stats": {
+     "llm_calls": 3,
+     "tool_calls": 2,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-eaee0e9a-2459-4da5-a701-d4531f429fcc",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/订单 详情.txt"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-ff3de844-d37d-4207-8d5f-e5556b6df5d9",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/订单 详情.txt"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-e5165264-161a-43ae-945c-3248a0f797ac",
+     "name": "read_file",
+     "arguments": {
+      "path": "/tmp/订单 详情.txt"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c10_amount_int": {
+  "case": {
+   "id": "c10_amount_int",
+   "cat": "整数金额",
+   "prompt": "创建订单，订单号 F500，金额 100，币种 CNY，日期 2026-09-13",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "F500",
+    "amount": 100.0,
+    "currency": "CNY",
+    "date": "2026-09-13"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-5674a958-fe9b-49f2-ac62-b560060d55a2",
+     "name": "create_order",
+     "arguments": {
+      "currency": "CNY",
+      "order_id": "F500",
+      "date": "2026-09-13",
+      "amount": 100
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-8def98f7-494f-4b91-ba1a-f01bcb027b50",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "F500",
+      "currency": "CNY",
+      "amount": 100,
+      "date": "2026-09-13"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-43ba1ef2-5c05-4f38-a7f9-4f4f9472a03e",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-13",
+      "amount": 100,
+      "order_id": "F500",
+      "currency": "CNY"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-5ad8ca04-8c51-406c-8f90-d7efc5534d16",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "F500",
+      "amount": 100,
+      "currency": "CNY",
+      "date": "2026-09-13"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-9d27c116-006a-460c-b5c6-8cde032f3f0e",
+     "name": "create_order",
+     "arguments": {
+      "amount": 100,
+      "order_id": "F500",
+      "currency": "CNY",
+      "date": "2026-09-13"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c11_very_long_id": {
+  "case": {
+   "id": "c11_very_long_id",
+   "cat": "超长ID",
+   "prompt": "创建订单，订单号 202609070018923456789012，金额 7.25，币种 CNY，日期 2026-09-14",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "202609070018923456789012",
+    "amount": 7.25,
+    "currency": "CNY",
+    "date": "2026-09-14"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-173e48ef-3927-4cf5-ad17-85b1056cd781",
+     "name": "create_order",
+     "arguments": {
+      "amount": 7.25,
+      "currency": "CNY",
+      "date": "2026-09-14",
+      "order_id": "202609070018923456789012"
+     }
+    },
+    "answer": "订单创建成功！  \n- 订单号：`202609070018923456789012`  \n- 金额：7.25 CNY  \n- 日期：2026-09-14  \n- 备注：（无）",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-b455a497-5b6a-4fd2-84ff-f1c358b6a4cf",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "202609070018923456789012",
+      "amount": 7.25,
+      "date": "2026-09-14",
+      "currency": "CNY"
+     }
+    },
+    "answer": "订单已成功创建：\n\n- **订单号**：202609070018923456789012  \n- **金额**：7.25  \n- **币种**：CNY  \n- **日期**：2026-09-14  \n\n如果需要添加备注或进行其他操作，请随时告诉我。",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-485ac77e-4d84-4d65-a12d-c50733bd7569",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-14",
+      "amount": 7.25,
+      "currency": "CNY",
+      "order_id": "202609070018923456789012"
+     }
+    },
+    "answer": "订单创建成功！  \n- 订单号：202609070018923456789012  \n- 金额：7.25 CNY  \n- 日期：2026-09-14  \n\n如果需要添加备注或进行其他操作，请告诉我。",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-998a241b-6396-4140-a628-7a7f28b40e4a",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-14",
+      "amount": 7.25,
+      "currency": "CNY",
+      "order_id": "202609070018923456789012"
+     }
+    },
+    "answer": "订单创建成功！  \n\n- **订单号**：202609070018923456789012  \n- **金额**：7.25 CNY  \n- **日期**：2026-09-14  \n\n该订单已在系统中记录。祝使用愉快！",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-070a0b2f-9fef-4ccc-b6e0-d269f0d11f83",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "202609070018923456789012",
+      "currency": "CNY",
+      "amount": 7.25,
+      "date": "2026-09-14"
+     }
+    },
+    "answer": "订单已成功创建：\n\n- **订单号**：202609070018923456789012  \n- **金额**：7.25  \n- **币种**：CNY  \n- **日期**：2026-09-14  \n\n如果还有其他操作需要帮助，请随时告知！",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 5,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-420301fc-bdc3-4d27-8bec-22b98c1d8f5c",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "202609070018923456789012",
+      "amount": 7.25,
+      "date": "2026-09-14",
+      "currency": "CNY"
+     }
+    },
+    "answer": "订单创建成功！  \n- **订单号**：202609070018923456789012  \n- **金额**：7.25 CNY  \n- **日期**：2026-09-14  \n\n如果需要添加备注或进行其他操作，请随时告诉我。",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 6,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-e3a8ab3c-473e-4fc5-a1d3-c7f2f483305e",
+     "name": "create_order",
+     "arguments": {
+      "amount": 7.25,
+      "currency": "CNY",
+      "order_id": "202609070018923456789012",
+      "date": "2026-09-14"
+     }
+    },
+    "answer": "订单已成功创建：\n\n- **订单号**：202609070018923456789012  \n- **金额**：7.25 CNY  \n- **日期**：2026-09-14  \n\n如果需要添加备注或进行后续操作，请告诉我！",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 7,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-405db279-79bb-47e5-9994-37359536e4c3",
+     "name": "create_order",
+     "arguments": {
+      "amount": 7.25,
+      "currency": "CNY",
+      "order_id": "202609070018923456789012",
+      "date": "2026-09-14"
+     }
+    },
+    "answer": "订单创建成功！以下是订单详情：\n\n- **订单号**：202609070018923456789012  \n- **金额**：7.25  \n- **币种**：CNY  \n- **日期**：2026-09-14  \n- **备注**：（无）\n\n感谢使用订单服务。",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 8,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-9efefd96-bda7-4cde-90e8-ed22237223da",
+     "name": "create_order",
+     "arguments": {
+      "amount": 7.25,
+      "date": "2026-09-14",
+      "currency": "CNY",
+      "order_id": "202609070018923456789012"
+     }
+    },
+    "answer": "订单创建成功！  \n- **订单号**：202609070018923456789012  \n- **金额**：7.25 CNY  \n- **日期**：2026-09-14  \n\n如需查询订单状态或添加备注，请告诉我。",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 9,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-07d2d69d-7848-402d-b895-4774551f67ad",
+     "name": "create_order",
+     "arguments": {
+      "amount": 7.25,
+      "currency": "CNY",
+      "order_id": "202609070018923456789012",
+      "date": "2026-09-14"
+     }
+    },
+    "answer": "✅ 订单已成功创建！  \n\n- **订单号**：202609070018923456789012  \n- **金额**：7.25 CNY  \n- **日期**：2026-09-14  \n\n如果需要添加备注或进行其他操作，请随时告诉我。",
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ },
+ "c12_distractor": {
+  "case": {
+   "id": "c12_distractor",
+   "cat": "干扰信息",
+   "prompt": "客户编号 8899 联系我们（电话 13800138000 是客服热线），需要创建订单：订单号 20260907B，金额 45.6，币种 CNY，日期 2026-09-15。另外历史订单 20260101A 的金额是 999，不用管。",
+   "tool": "create_order",
+   "expect": {
+    "order_id": "20260907B",
+    "amount": 45.6,
+    "currency": "CNY",
+    "date": "2026-09-15"
+   }
+  },
+  "results": [
+   {
+    "i": 0,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-9673bcaf-e40e-40d9-a13a-14b7bd03371f",
+     "name": "create_order",
+     "arguments": {
+      "amount": 45.6,
+      "date": "2026-09-15",
+      "order_id": "20260907B",
+      "currency": "CNY"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 1,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-2063b3ab-7461-4623-b8a3-03596caf8a23",
+     "name": "create_order",
+     "arguments": {
+      "amount": 45.6,
+      "order_id": "20260907B",
+      "currency": "CNY",
+      "date": "2026-09-15"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 2,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-349c592c-a471-4a84-9583-1d103f1073f0",
+     "name": "create_order",
+     "arguments": {
+      "date": "2026-09-15",
+      "order_id": "20260907B",
+      "currency": "CNY",
+      "amount": 45.6
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 3,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-abd863ca-eeff-4d05-a827-53b82af7dc18",
+     "name": "create_order",
+     "arguments": {
+      "amount": 45.6,
+      "currency": "CNY",
+      "order_id": "20260907B",
+      "date": "2026-09-15"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   },
+   {
+    "i": 4,
+    "ok": true,
+    "errs": [],
+    "call": {
+     "id": "call-6e0758f6-1139-4cd6-b1e6-9aa17bcc4907",
+     "name": "create_order",
+     "arguments": {
+      "order_id": "20260907B",
+      "date": "2026-09-15",
+      "amount": 45.6,
+      "currency": "CNY"
+     }
+    },
+    "turns": 2,
+    "stats": {
+     "llm_calls": 2,
+     "tool_calls": 1,
+     "tool_errors": 0,
+     "arg_parse_errors": 0
+    }
+   }
+  ]
+ }
+}

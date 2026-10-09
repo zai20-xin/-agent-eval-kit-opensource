@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "agent-eval-kit"
+version = "0.3.0"
+description = "Agent 评测工具包：把评测结果做可信的可插拔底座（batch/suites/compare）"
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [{ name = "zhangwei" }]
+keywords = ["agent", "evaluation", "benchmark", "tau-bench", "swe-bench"]
+dependencies = [
+    # judge.py 懒加载；CLI 主路径（report/import-*/compare）不强制联网
+    "openai>=1.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0",
+]
+
+[project.scripts]
+evalkit = "evalkit.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["evalkit*"]
+exclude = ["experiments*", "steps*", "docs*", "logs*", "tools*", "bare-agent*"]
+
+[tool.setuptools.package-data]
+evalkit = ["py.typed"]
+
+[tool.pytest.ini_options]
+testpaths = ["evalkit/tests", "bare-agent"]
+python_files = ["test_*.py"]
+addopts = "-q"

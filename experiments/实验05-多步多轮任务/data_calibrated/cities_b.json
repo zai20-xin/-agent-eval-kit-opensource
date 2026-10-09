@@ -1,0 +1,20 @@
+[
+  {
+    "city": "沈阳",
+    "weather": "小雨",
+    "temp": 25,
+    "rain": true
+  },
+  {
+    "city": "广州",
+    "weather": "阴",
+    "temp": 31,
+    "rain": false
+  },
+  {
+    "city": "宁波",
+    "weather": "阴",
+    "temp": 19,
+    "rain": false
+  }
+]

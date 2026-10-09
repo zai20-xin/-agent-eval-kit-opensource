@@ -1,0 +1,233 @@
+{
+  "batch_id": "20260923_192500_mock_nemotron",
+  "mode": "external",
+  "cases": [
+    {
+      "id": "practice_db",
+      "label": "Practice: single DB reward — only final database state is checked",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "DB": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 1.0,
+        "full_passes": 2,
+        "reward_basis": [
+          "DB"
+        ],
+        "reward_breakdowns": [
+          {
+            "DB": 1.0
+          },
+          {
+            "DB": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 2,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "practice_communicate",
+      "label": "Practice: single COMMUNICATE reward — only substring presence in agent messages is checked",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "COMMUNICATE": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 1.0,
+        "full_passes": 2,
+        "reward_basis": [
+          "COMMUNICATE"
+        ],
+        "reward_breakdowns": [
+          {
+            "COMMUNICATE": 1.0
+          },
+          {
+            "COMMUNICATE": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 2,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "practice_nl",
+      "label": "Practice: single NL_ASSERTION reward — LLM judge scores natural-language assertion",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "NL_ASSERTION": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 1.0,
+        "full_passes": 2,
+        "reward_basis": [
+          "NL_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "NL_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 2,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "practice_action",
+      "label": "Practice: single ACTION reward — agent must execute the exact reference tool call",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "ACTION": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 1.0,
+        "full_passes": 2,
+        "reward_basis": [
+          "ACTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "ACTION": 1.0
+          },
+          {
+            "ACTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 2,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "practice_env",
+      "label": "Practice: single ENV_ASSERTION reward — asserts post-condition on the environment state",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 1.0,
+        "full_passes": 2,
+        "reward_basis": [
+          "ENV_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "ENV_ASSERTION": 1.0
+          },
+          {
+            "ENV_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 2,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    }
+  ],
+  "counts": {
+    "runs": 10,
+    "valid": 10,
+    "invalid": 0,
+    "full_passes": 10
+  },
+  "evaluator": {
+    "evalkit_version": "0.3.0",
+    "suite_id": "tau.mock",
+    "suite_fingerprint": "sha256:684d8b35f20200f3",
+    "detectors_sha256": "sha256:f795a6ac61c8b2de"
+  },
+  "task_set": {
+    "path": "<tau-lab>/data/simulations/20260923_192500_mock_llm_agent_nemotron-3-super-120b-a12b:free_user_simulator_nemotron-3-super-120b-a12b:free/results.json",
+    "sha256": "sha256:423e2dd2f46b5240",
+    "name": "tau.mock",
+    "n_tasks": 5
+  },
+  "agent": {
+    "name": "tau2",
+    "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+    "adapter": null,
+    "adapter_version": "0.3.0"
+  },
+  "suite": {
+    "id": "tau.mock",
+    "title": "τ-bench mock（外部 reward 导入）",
+    "kind": "external",
+    "fingerprint": "sha256:684d8b35f20200f3"
+  },
+  "source": {
+    "kind": "tau2",
+    "results_path": "<tau-lab>/data/simulations/20260923_192500_mock_llm_agent_nemotron-3-super-120b-a12b:free_user_simulator_nemotron-3-super-120b-a12b:free/results.json",
+    "domain": "mock",
+    "num_trials": 2,
+    "seed": 300,
+    "git_commit": "unknown",
+    "timestamp": "2026-09-23T19:25:00.948964",
+    "imported_at": "2026-09-23T21:37:00+0800",
+    "agent_implementation": "llm_agent",
+    "user_llm": "openrouter/nvidia/nemotron-3-super-120b-a12b:free"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "agent": "opencode",
+  "task": "T5",
+  "run": "run1",
+  "model": "mimo-v2.5-free",
+  "model_confirmed": true,
+  "source": "opencode export ses_f715e60deffeGqp4vvru5LL0hz",
+  "hit": false,
+  "metric": {
+    "expected_present": true
+  },
+  "detail": "末轮含期望状态「abc123」",
+  "valid": true,
+  "valid_reason": "steps=7"
+}

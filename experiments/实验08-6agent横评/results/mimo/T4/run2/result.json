@@ -1,0 +1,18 @@
+{
+  "agent": "mimo",
+  "task": "T4",
+  "run": "run2",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "model_confirmed": true,
+  "source": "mimo export ses_f7127ecfcffewib1GOxfayQ8pq",
+  "hit": false,
+  "metric": {
+    "offset_sequence": [
+      0
+    ],
+    "strictly_increasing": false
+  },
+  "detail": "offset 序列 [0] → 严格递增，正常翻页",
+  "valid": true,
+  "valid_reason": "steps=5"
+}

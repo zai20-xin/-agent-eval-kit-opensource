@@ -1,0 +1,20 @@
+[
+  {
+    "city": "济南",
+    "weather": "晴",
+    "temp": 35,
+    "rain": false
+  },
+  {
+    "city": "合肥",
+    "weather": "阴",
+    "temp": 23,
+    "rain": false
+  },
+  {
+    "city": "厦门",
+    "weather": "雷阵雨",
+    "temp": 27,
+    "rain": true
+  }
+]

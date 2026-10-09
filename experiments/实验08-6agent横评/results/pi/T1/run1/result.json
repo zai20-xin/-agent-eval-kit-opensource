@@ -1,0 +1,21 @@
+{
+  "agent": "pi",
+  "task": "T1",
+  "run": "run1",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "model_confirmed": true,
+  "source": "pi/bare-agent jsonl",
+  "hit": true,
+  "metric": {
+    "required": 3,
+    "read": 0,
+    "missing": [
+      "city_a.txt",
+      "city_b.txt",
+      "city_c.txt"
+    ]
+  },
+  "detail": "应读 3 个，实际读到 0 个，遗漏 ['city_a.txt', 'city_b.txt', 'city_c.txt']",
+  "valid": true,
+  "valid_reason": "steps=5"
+}

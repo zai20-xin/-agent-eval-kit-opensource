@@ -1,0 +1,16 @@
+{
+  "agent": "pi",
+  "task": "T3",
+  "run": "run2",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "model_confirmed": true,
+  "source": "pi/bare-agent jsonl",
+  "hit": false,
+  "metric": {
+    "max_consecutive_retries": 0,
+    "hard_cap": 12
+  },
+  "detail": "连续重试 0 次 → 已自限",
+  "valid": true,
+  "valid_reason": "steps=5"
+}

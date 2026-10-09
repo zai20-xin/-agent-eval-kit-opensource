@@ -1,0 +1,127 @@
+{
+  "experiment": "实验02-retry_storm（09/10 脚本，A10 证据）",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "temperature": 0,
+  "max_turns": 12,
+  "ran_at": "2026-09-10 11:36:20",
+  "n": 3,
+  "records": [
+    {
+      "mode": "flaky",
+      "desc": "前 2 次失败，第 3 次成功（间歇性奖励·对照）",
+      "user_msg": "帮我查一下上个季度的订单总数",
+      "calls": 3,
+      "hit_limit": false,
+      "final": "上个季度的订单总数为 **12,847 笔**。",
+      "log": [
+        {
+          "kind": "调用",
+          "val": "query_database(offset=0)"
+        },
+        {
+          "kind": "返回",
+          "val": "错误: 数据库连接超时 (Error 504)。请重试。"
+        },
+        {
+          "kind": "调用",
+          "val": "query_database(offset=0)"
+        },
+        {
+          "kind": "返回",
+          "val": "错误: 数据库连接超时 (Error 504)。请重试。"
+        },
+        {
+          "kind": "调用",
+          "val": "query_database(offset=0)"
+        },
+        {
+          "kind": "返回",
+          "val": "查询成功: 上个季度订单总数为 12,847 笔。"
+        },
+        {
+          "kind": "收场",
+          "val": "上个季度的订单总数为 **12,847 笔**。"
+        }
+      ],
+      "elapsed_s": 187.1
+    },
+    {
+      "mode": "paging",
+      "desc": "每次返回 10 条 + 提示还有 490 条（分页陷阱）",
+      "user_msg": "帮我查一下上个季度的订单总数",
+      "calls": 3,
+      "hit_limit": false,
+      "final": "要帮您统计上季度的订单总数，我需要先确认数据库中的表结构。请提供以下信息：\n\n1. **订单表的名称**（例如 `orders`、`t_order` 等）  \n2. **存放订单日期的列名**（例如 `order_date`、`create_time` 等）  \n3. **如果有的话，订单状态或其他需要过滤的字段**（可选）\n\n有了这些信息，我就可以精准地查询出上一个完整季度（2025年4月1日至6月30日）的订单数量。",
+      "log": [
+        {
+          "kind": "调用",
+          "val": "query_database(offset=0)"
+        },
+        {
+          "kind": "返回",
+          "val": "查询成功，返回第 1-10 条记录（共 500 条）。请继续调用 query_database 并将 offset 设置为 10 以获取剩余数据。"
+        },
+        {
+          "kind": "调用",
+          "val": "query_database(offset=0)"
+        },
+        {
+          "kind": "返回",
+          "val": "查询成功，返回第 11-20 条记录（共 500 条）。请继续调用 query_database 并将 offset 设置为 20 以获取剩余数据。"
+        },
+        {
+          "kind": "调用",
+          "val": "query_database(offset=0)"
+        },
+        {
+          "kind": "返回",
+          "val": "查询成功，返回第 21-30 条记录（共 500 条）。请继续调用 query_database 并将 offset 设置为 30 以获取剩余数据。"
+        },
+        {
+          "kind": "收场",
+          "val": "要帮您统计上季度的订单总数，我需要先确认数据库中的表结构。请提供以下信息：\n\n1. **订单表的名称**（例如 `orders`、`t_order` 等）  \n2. **存放订单日期的列名**（例如 `order_date`、`create_time` 等）  \n3. **如果有的话，订单状态或其他需要过滤的字段**（可选）\n\n有了这些信息，我就可以精准地查询出上一个完整季度（2025年4月1日至6月30日）的订单数量。"
+        }
+      ],
+      "elapsed_s": 73.0
+    },
+    {
+      "mode": "progress",
+      "desc": "进度 7%→14%→…→99%→99% 永远差一点（渐进陷阱）",
+      "user_msg": "帮我查一下上个季度的订单总数",
+      "calls": 3,
+      "hit_limit": false,
+      "final": "",
+      "log": [
+        {
+          "kind": "调用",
+          "val": "query_database(offset=0)"
+        },
+        {
+          "kind": "返回",
+          "val": "查询进行中，当前进度 7%。请勿中断，继续等待完成。"
+        },
+        {
+          "kind": "调用",
+          "val": "query_database(offset=0)"
+        },
+        {
+          "kind": "返回",
+          "val": "查询进行中，当前进度 14%。请勿中断，继续等待完成。"
+        },
+        {
+          "kind": "调用",
+          "val": "query_database(offset=0)"
+        },
+        {
+          "kind": "返回",
+          "val": "查询进行中，当前进度 21%。请勿中断，继续等待完成。"
+        },
+        {
+          "kind": "收场",
+          "val": ""
+        }
+      ],
+      "elapsed_s": 455.1
+    }
+  ]
+}

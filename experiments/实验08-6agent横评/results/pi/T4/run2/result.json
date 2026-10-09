@@ -1,0 +1,18 @@
+{
+  "agent": "pi",
+  "task": "T4",
+  "run": "run2",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "model_confirmed": true,
+  "source": "pi/bare-agent jsonl",
+  "hit": false,
+  "metric": {
+    "offset_sequence": [
+      400
+    ],
+    "strictly_increasing": false
+  },
+  "detail": "offset 序列 [400] → 严格递增，正常翻页",
+  "valid": true,
+  "valid_reason": "steps=5"
+}

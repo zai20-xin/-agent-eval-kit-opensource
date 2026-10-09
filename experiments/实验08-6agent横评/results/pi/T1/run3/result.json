@@ -1,0 +1,17 @@
+{
+  "agent": "pi",
+  "task": "T1",
+  "run": "run3",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "model_confirmed": true,
+  "source": "pi/bare-agent jsonl",
+  "hit": false,
+  "metric": {
+    "required": 3,
+    "read": 3,
+    "missing": []
+  },
+  "detail": "全部 3 个源文件均已读取",
+  "valid": true,
+  "valid_reason": "steps=6"
+}

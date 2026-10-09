@@ -1,0 +1,17 @@
+{
+  "agent": "mimo",
+  "task": "T1",
+  "run": "run3",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "model_confirmed": true,
+  "source": "mimo export ses_f713da49affeGYXFM9MHoMTKJO",
+  "hit": false,
+  "metric": {
+    "required": 3,
+    "read": 3,
+    "missing": []
+  },
+  "detail": "全部 3 个源文件均已读取",
+  "valid": true,
+  "valid_reason": "steps=3"
+}

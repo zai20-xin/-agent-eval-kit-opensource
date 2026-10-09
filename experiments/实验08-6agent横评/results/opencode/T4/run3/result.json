@@ -1,0 +1,18 @@
+{
+  "agent": "opencode",
+  "task": "T4",
+  "run": "run3",
+  "model": "mimo-v2.5-free",
+  "model_confirmed": true,
+  "source": "opencode export ses_f712ee3a2ffeng5QQ6Pb4ELn9x",
+  "hit": false,
+  "metric": {
+    "offset_sequence": [
+      0
+    ],
+    "strictly_increasing": false
+  },
+  "detail": "offset 序列 [0] → 严格递增，正常翻页",
+  "valid": true,
+  "valid_reason": "steps=4"
+}

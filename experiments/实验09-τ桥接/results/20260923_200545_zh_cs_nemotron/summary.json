@@ -1,0 +1,233 @@
+{
+  "batch_id": "20260923_200545_zh_cs_nemotron",
+  "mode": "external",
+  "cases": [
+    {
+      "id": "zh_create_ticket_db",
+      "label": "验证 DB 判分：创建工单后终态匹配",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "DB": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 1.0,
+        "full_passes": 2,
+        "reward_basis": [
+          "DB"
+        ],
+        "reward_breakdowns": [
+          {
+            "DB": 1.0
+          },
+          {
+            "DB": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 2,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "zh_communicate_ok",
+      "label": "验证 COMMUNICATE 判分：必须告知工单号",
+      "score": 0.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 0.0,
+        "reward_breakdown": {
+          "COMMUNICATE": 0.0
+        },
+        "rewards": [
+          0.0,
+          0.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 0.0,
+        "full_passes": 0,
+        "reward_basis": [
+          "COMMUNICATE"
+        ],
+        "reward_breakdowns": [
+          {
+            "COMMUNICATE": 0.0
+          },
+          {
+            "COMMUNICATE": 0.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 0,
+      "rate": 0.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "zh_resolve_env",
+      "label": "验证 ENV_ASSERTION 判分：工单状态被改为 resolved",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "ENV_ASSERTION": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 1.0,
+        "full_passes": 2,
+        "reward_basis": [
+          "ENV_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "ENV_ASSERTION": 1.0
+          },
+          {
+            "ENV_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 2,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "zh_nl_confirm",
+      "label": "验证 NL_ASSERTION 判分：LLM 裁判确认中文回复",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "NL_ASSERTION": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 1.0,
+        "full_passes": 2,
+        "reward_basis": [
+          "NL_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "NL_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 2,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "zh_action_exact",
+      "label": "验证 ACTION 判分：必须精确调用指定工具与参数",
+      "score": 0.5,
+      "metric": "reward",
+      "raw": {
+        "reward": 0.5,
+        "reward_breakdown": {
+          "ACTION": 1.0
+        },
+        "rewards": [
+          0.0,
+          1.0
+        ],
+        "n_trials": 2,
+        "n_valid": 2,
+        "mean": 0.5,
+        "full_passes": 1,
+        "reward_basis": [
+          "ACTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "ACTION": 0.0
+          },
+          {
+            "ACTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 2,
+      "hits": 1,
+      "rate": 0.5,
+      "no_output": 0,
+      "collect_failed": 0
+    }
+  ],
+  "counts": {
+    "runs": 10,
+    "valid": 10,
+    "invalid": 0,
+    "full_passes": 7
+  },
+  "evaluator": {
+    "evalkit_version": "0.3.0",
+    "suite_id": "tau.zh_cs",
+    "suite_fingerprint": "sha256:5d4df5eaac3a8b56",
+    "detectors_sha256": "sha256:f795a6ac61c8b2de"
+  },
+  "task_set": {
+    "path": "<tau-lab>/data/simulations/20260923_200545_zh_cs_llm_agent_nemotron-3-super-120b-a12b:free_user_simulator_nemotron-3-super-120b-a12b:free/results.json",
+    "sha256": "sha256:bdc98f69b8ba20f3",
+    "name": "tau.zh_cs",
+    "n_tasks": 5
+  },
+  "agent": {
+    "name": "tau2",
+    "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+    "adapter": null,
+    "adapter_version": "0.3.0"
+  },
+  "suite": {
+    "id": "tau.zh_cs",
+    "title": "τ-bench zh_cs（外部 reward 导入）",
+    "kind": "external",
+    "fingerprint": "sha256:5d4df5eaac3a8b56"
+  },
+  "source": {
+    "kind": "tau2",
+    "results_path": "<tau-lab>/data/simulations/20260923_200545_zh_cs_llm_agent_nemotron-3-super-120b-a12b:free_user_simulator_nemotron-3-super-120b-a12b:free/results.json",
+    "domain": "zh_cs",
+    "num_trials": 2,
+    "seed": 300,
+    "git_commit": "unknown",
+    "timestamp": "2026-09-23T20:05:45.307798",
+    "imported_at": "2026-09-24T09:52:18+0800",
+    "agent_implementation": "llm_agent",
+    "user_llm": "openrouter/nvidia/nemotron-3-super-120b-a12b:free"
+  }
+}

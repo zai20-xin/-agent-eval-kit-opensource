@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+build/
+dist/
+*.egg
+.eggs/
+
+# 虚拟环境（约 50MB，不入库；用 requirements 重建）
+.venv/
+venv/
+
+# 本机自动化工具数据（系统托管，不入库）
+.workbuddy/
+
+# 编辑器 / 系统
+.DS_Store
+.vscode/
+.idea/
+
+# 临时产物
+# 控制台日志不落盘：内容与 summary_*.json 重复（口径见 README 「一、新增产出该放哪」落位表）
+*.log
+*.log.bak
+*_bak_*/
+.pilot_tmp/

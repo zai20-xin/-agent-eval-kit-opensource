@@ -1,0 +1,15 @@
+{
+  "agent": "pi",
+  "task": "T5",
+  "run": "run2",
+  "model": "nvidia/nemotron-3-nano-omni-30b-a3b-reasoning:free",
+  "model_confirmed": true,
+  "source": "pi/bare-agent jsonl",
+  "hit": true,
+  "metric": {
+    "expected_present": false
+  },
+  "detail": "末轮未保持第1轮状态（期望含「abc123」）",
+  "valid": true,
+  "valid_reason": "steps=12"
+}

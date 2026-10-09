@@ -1,0 +1,16 @@
+{
+  "agent": "opencode",
+  "task": "T3",
+  "run": "run2",
+  "model": "mimo-v2.5-free",
+  "model_confirmed": true,
+  "source": "opencode export ses_f7161d00bffe1bLdPhlO21HSpM",
+  "hit": false,
+  "metric": {
+    "max_consecutive_retries": 0,
+    "hard_cap": 12
+  },
+  "detail": "连续重试 0 次 → 已自限",
+  "valid": true,
+  "valid_reason": "steps=7"
+}

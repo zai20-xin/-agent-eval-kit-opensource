@@ -1,0 +1,5 @@
+[
+  {"city": "杭州", "weather": "小雨", "temp": 22, "rain": true},
+  {"city": "武汉", "weather": "多云", "temp": 27, "rain": false},
+  {"city": "南京", "weather": "晴", "temp": 34, "rain": false}
+]

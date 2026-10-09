@@ -1,0 +1,123 @@
+{
+  "schema_version": 2,
+  "mode": "external",
+  "batch_id": "20260923_141741_retail_nemotron-super",
+  "created": "2026-09-24T07:19:33+0800",
+  "agent": {
+    "name": "tau2",
+    "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+    "adapter": null,
+    "adapter_version": "0.3.0"
+  },
+  "evaluator": {
+    "evalkit_version": "0.3.0",
+    "suite_id": "tau.retail",
+    "suite_fingerprint": "sha256:684d8b35f20200f3",
+    "detectors_sha256": "sha256:f795a6ac61c8b2de"
+  },
+  "k": 4,
+  "counts": {
+    "runs": 2,
+    "valid": 2,
+    "invalid": 0,
+    "full_passes": 2
+  },
+  "source": {
+    "kind": "tau2",
+    "results_path": "<tau-lab>/data/simulations/20260923_141741_retail_llm_agent_nemotron-3-super-120b-a12b:free_user_simulator_nemotron-3-super-120b-a12b:free/results.json",
+    "domain": "retail",
+    "num_trials": 4,
+    "seed": 300,
+    "git_commit": "unknown",
+    "timestamp": "2026-09-23T14:17:41.245423",
+    "imported_at": "2026-09-24T07:19:33+0800",
+    "agent_implementation": "llm_agent",
+    "user_llm": "openrouter/nvidia/nemotron-3-super-120b-a12b:free"
+  },
+  "cases": [
+    {
+      "id": "0",
+      "label": "0",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "DB": 1.0,
+          "NL_ASSERTION": 1.0
+        },
+        "rewards": [
+          1.0
+        ],
+        "n_trials": 1,
+        "n_valid": 1,
+        "mean": 1.0,
+        "full_passes": 1,
+        "reward_basis": [
+          "DB",
+          "NL_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 1,
+      "hits": 1,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "DB": 1.0,
+          "NL_ASSERTION": 1.0
+        },
+        "rewards": [
+          1.0
+        ],
+        "n_trials": 1,
+        "n_valid": 1,
+        "mean": 1.0,
+        "full_passes": 1,
+        "reward_basis": [
+          "DB",
+          "NL_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 1,
+      "hits": 1,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    }
+  ],
+  "suite": {
+    "id": "tau.retail",
+    "title": "τ-bench retail（外部 reward 导入）",
+    "kind": "external",
+    "fingerprint": "sha256:684d8b35f20200f3"
+  },
+  "task_set": {
+    "path": "<tau-lab>/data/simulations/20260923_141741_retail_llm_agent_nemotron-3-super-120b-a12b:free_user_simulator_nemotron-3-super-120b-a12b:free/results.json",
+    "sha256": "sha256:16e9843b1189ee15",
+    "name": "tau.retail",
+    "n_tasks": 5
+  }
+}

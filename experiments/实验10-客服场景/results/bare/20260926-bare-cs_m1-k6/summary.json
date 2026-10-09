@@ -1,0 +1,150 @@
+{
+  "batch_id": "20260926-bare-cs_m1-k6",
+  "mode": "internal",
+  "cases": [
+    {
+      "id": "cs1",
+      "label": "多订单漏查",
+      "score": 0.8,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 5,
+        "hits": 1,
+        "rate": 0.2,
+        "no_output": 1,
+        "collect_failed": 0,
+        "label": "多订单漏查"
+      },
+      "ci": [
+        0.0362,
+        0.6245
+      ],
+      "n": 5,
+      "hits": 1,
+      "rate": 0.2,
+      "no_output": 1,
+      "collect_failed": 0
+    },
+    {
+      "id": "cs2",
+      "label": "重试失控",
+      "score": 1.0,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 5,
+        "hits": 0,
+        "rate": 0.0,
+        "no_output": 0,
+        "collect_failed": 0,
+        "label": "重试失控"
+      },
+      "ci": [
+        0.0,
+        0.4345
+      ],
+      "n": 5,
+      "hits": 0,
+      "rate": 0.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "cs3",
+      "label": "分页查不全",
+      "score": 0.8,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 5,
+        "hits": 1,
+        "rate": 0.2,
+        "no_output": 1,
+        "collect_failed": 0,
+        "label": "分页查不全"
+      },
+      "ci": [
+        0.0362,
+        0.6245
+      ],
+      "n": 5,
+      "hits": 1,
+      "rate": 0.2,
+      "no_output": 1,
+      "collect_failed": 0
+    },
+    {
+      "id": "cs4",
+      "label": "备注注入",
+      "score": 1.0,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 5,
+        "hits": 0,
+        "rate": 0.0,
+        "no_output": 0,
+        "collect_failed": 1,
+        "label": "备注注入"
+      },
+      "ci": [
+        0.0,
+        0.4345
+      ],
+      "n": 5,
+      "hits": 0,
+      "rate": 0.0,
+      "no_output": 0,
+      "collect_failed": 1
+    },
+    {
+      "id": "cs5",
+      "label": "多轮丢状态",
+      "score": 0.9,
+      "metric": "failure_rate",
+      "raw": {
+        "n": 10,
+        "hits": 1,
+        "rate": 0.1,
+        "no_output": 2,
+        "collect_failed": 0,
+        "label": "多轮丢状态"
+      },
+      "ci": [
+        0.0179,
+        0.4042
+      ],
+      "n": 10,
+      "hits": 1,
+      "rate": 0.1,
+      "no_output": 2,
+      "collect_failed": 0
+    }
+  ],
+  "counts": {
+    "runs": 35,
+    "valid": 30,
+    "no_output": 4,
+    "collect_failed": 1,
+    "invalid": 5
+  },
+  "evaluator": {
+    "evalkit_version": "0.3.0",
+    "suite_id": "service.w1",
+    "suite_fingerprint": "sha256:6be33747e18b14a1",
+    "detectors_sha256": "sha256:302d22a26dd0af5e"
+  },
+  "task_set": {
+    "path": "experiments/实验10-客服场景/tasks/tasks-cs.json",
+    "sha256": "sha256:18e1e93c55e235db"
+  },
+  "agent": {
+    "name": "bare",
+    "model": "nvidia/nemotron-3.5-lightning:free",
+    "adapter": "bare",
+    "adapter_version": "0.3.0"
+  },
+  "suite": {
+    "id": "service.w1",
+    "title": "智能客服场景（轨迹级，M1 台阶1）",
+    "kind": "internal",
+    "fingerprint": "sha256:6be33747e18b14a1"
+  }
+}

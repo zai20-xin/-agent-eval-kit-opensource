@@ -1,0 +1,1892 @@
+[
+  {
+    "idx": 0,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京"
+    ],
+    "error": null,
+    "answer": "",
+    "missing": [
+      "上海"
+    ],
+    "extra": [],
+    "omission": true,
+    "n_calls": 1,
+    "dup_calls": 0,
+    "answer_correct": false
+  },
+  {
+    "idx": 1,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京",
+      "上海"
+    ],
+    "error": null,
+    "answer": "上海",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 2,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 2,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京",
+      "上海"
+    ],
+    "error": null,
+    "answer": "上海",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 2,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 3,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京",
+      "上海"
+    ],
+    "error": null,
+    "answer": "上海",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 2,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 4,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京",
+      "上海"
+    ],
+    "error": null,
+    "answer": "上海",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 2,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 5,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京",
+      "上海"
+    ],
+    "error": null,
+    "answer": "上海",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 2,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 6,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京",
+      "上海"
+    ],
+    "error": null,
+    "answer": "上海",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 2,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 7,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京",
+      "上海"
+    ],
+    "error": null,
+    "answer": "上海",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 2,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 8,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京",
+      "上海"
+    ],
+    "error": null,
+    "answer": "上海",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 2,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 9,
+    "n_cities": 2,
+    "targets": [
+      "北京",
+      "上海"
+    ],
+    "hottest_truth": "上海",
+    "called": [
+      "北京",
+      "上海"
+    ],
+    "error": null,
+    "answer": "上海",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 2,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 10,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 11,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 12,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 13,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 14,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 15,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 16,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 17,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 18,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 19,
+    "n_cities": 3,
+    "targets": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 20,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 21,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 22,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 23,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 24,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 25,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 26,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 27,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 28,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 29,
+    "n_cities": 4,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 30,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 31,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 32,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 33,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 34,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 35,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 36,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 37,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 38,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 39,
+    "n_cities": 5,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 5,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 40,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 6,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 41,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 6,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 42,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都"
+    ],
+    "error": "TypeError: 'NoneType' object is not subscriptable"
+  },
+  {
+    "idx": 43,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "The function calls completed.最高温度的城市是广州。",
+    "missing": [
+      "成都",
+      "西安"
+    ],
+    "extra": [],
+    "omission": true,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 44,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 6,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 45,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 6,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 46,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 6,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 47,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京"
+    ],
+    "error": null,
+    "answer": "",
+    "missing": [
+      "上海",
+      "广州",
+      "成都",
+      "深圳",
+      "西安"
+    ],
+    "extra": [],
+    "omission": true,
+    "n_calls": 1,
+    "dup_calls": 0,
+    "answer_correct": false
+  },
+  {
+    "idx": 48,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "",
+    "missing": [
+      "成都",
+      "深圳",
+      "西安"
+    ],
+    "extra": [],
+    "omission": true,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": false
+  },
+  {
+    "idx": 49,
+    "n_cities": 6,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 6,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 50,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 7,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 51,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 8,
+    "dup_calls": 1,
+    "answer_correct": true
+  },
+  {
+    "idx": 52,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 7,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 53,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 7,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 54,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 7,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 55,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 7,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 56,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 7,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 57,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 7,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 58,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 7,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 59,
+    "n_cities": 7,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 7,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 60,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 8,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 61,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "",
+    "missing": [
+      "成都",
+      "杭州",
+      "武汉",
+      "深圳",
+      "西安"
+    ],
+    "extra": [],
+    "omission": true,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": false
+  },
+  {
+    "idx": 62,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 8,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 63,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 8,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 64,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 8,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 65,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳"
+    ],
+    "error": null,
+    "answer": "We need to output city name only, no explanation. The final answer should just be the city with highest temp. Let's collect temps: Beijing=22, Shanghai=28, Guangzhou=33, Shenzhen=31, Chengdu=not fetched, Xi'an=not fetched, Hangzhou=not fetched, Wuhan=not fetched. Highest temperature is 33 in Guangzhou.",
+    "missing": [
+      "成都",
+      "杭州",
+      "武汉",
+      "西安"
+    ],
+    "extra": [],
+    "omission": true,
+    "n_calls": 4,
+    "dup_calls": 0,
+    "answer_correct": false
+  },
+  {
+    "idx": 66,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 8,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 67,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 8,
+    "dup_calls": 0,
+    "answer_correct": true
+  },
+  {
+    "idx": 68,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州"
+    ],
+    "error": null,
+    "answer": "We ben benefells overtime/controllers after from deep as disciplineells checkedells after singing and,. from in progress  \n",
+    "missing": [
+      "成都",
+      "杭州",
+      "武汉",
+      "深圳",
+      "西安"
+    ],
+    "extra": [],
+    "omission": true,
+    "n_calls": 3,
+    "dup_calls": 0,
+    "answer_correct": false
+  },
+  {
+    "idx": 69,
+    "n_cities": 8,
+    "targets": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "hottest_truth": "广州",
+    "called": [
+      "北京",
+      "上海",
+      "广州",
+      "深圳",
+      "成都",
+      "西安",
+      "杭州",
+      "武汉"
+    ],
+    "error": null,
+    "answer": "广州",
+    "missing": [],
+    "extra": [],
+    "omission": false,
+    "n_calls": 8,
+    "dup_calls": 0,
+    "answer_correct": true
+  }
+]

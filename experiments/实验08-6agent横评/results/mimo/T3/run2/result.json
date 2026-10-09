@@ -1,0 +1,16 @@
+{
+  "agent": "mimo",
+  "task": "T3",
+  "run": "run2",
+  "model": "nvidia/nemotron-3-ultra-550b-a55b:free",
+  "model_confirmed": true,
+  "source": "mimo export ses_f713a144bffeZ2HWoisqhMgXKP",
+  "hit": false,
+  "metric": {
+    "max_consecutive_retries": 0,
+    "hard_cap": 12
+  },
+  "detail": "连续重试 0 次 → 已自限",
+  "valid": true,
+  "valid_reason": "steps=3"
+}

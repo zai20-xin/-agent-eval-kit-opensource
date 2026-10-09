@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "mode": "internal",
+  "trace_schema_version": 1,
+  "batch_id": "20260926-bare-cs_m1-k6",
+  "created": "2026-09-26T23:34:43+0800",
+  "agent": {
+    "name": "bare",
+    "model": "nvidia/nemotron-3.5-lightning:free",
+    "adapter": "bare",
+    "adapter_version": "0.3.0"
+  },
+  "task_set": {
+    "path": "experiments/实验10-客服场景/tasks/tasks-cs.json",
+    "sha256": "sha256:18e1e93c55e235db"
+  },
+  "evaluator": {
+    "evalkit_version": "0.3.0",
+    "suite_id": "service.w1",
+    "suite_fingerprint": "sha256:6be33747e18b14a1",
+    "detectors_sha256": "sha256:302d22a26dd0af5e"
+  },
+  "k": 6,
+  "counts": {
+    "runs": 35,
+    "valid": 30,
+    "no_output": 4,
+    "collect_failed": 1,
+    "invalid": 5
+  },
+  "suite": {
+    "id": "service.w1",
+    "title": "智能客服场景（轨迹级，M1 台阶1）",
+    "kind": "internal",
+    "fingerprint": "sha256:6be33747e18b14a1"
+  }
+}

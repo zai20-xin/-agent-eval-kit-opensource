@@ -1,0 +1,11 @@
+#!/bin/sh
+# agent-eval-kit pre-commit 落位门禁（**源文件**）
+#
+# 勿直接运行 —— 它是模板，需经 `sh tools/install-hooks.sh` 安装到 .git/hooks/ 才生效。
+# 为什么源文件要留在仓库里：.git/hooks/ 不被 git 跟踪，换机器 / 重新 clone 后 hook 会消失，
+# 机制就静默失效了。仓库里留源文件 + 一个安装脚本，才能保证「机制可复现」。
+#
+# 绕过方式（不推荐）：git commit --no-verify
+
+ROOT=$(git rev-parse --show-toplevel)
+exec __PYTHON__ "$ROOT/tools/layout_gate.py" --staged "$ROOT"

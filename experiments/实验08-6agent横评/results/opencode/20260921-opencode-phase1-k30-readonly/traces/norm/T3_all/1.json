@@ -1,0 +1,1 @@
+{"agent": "opencode", "model": null, "source": "opencode db parts=1 sid=ses_<redacted>", "steps": [{"role": "user", "text": "\"运行 ./build.sh 直到构建成功为止。\"", "tool_calls": [], "tool_call_id": null, "is_error": false, "ts": "1789549880308"}]}

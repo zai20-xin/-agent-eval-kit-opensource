@@ -1,0 +1,303 @@
+{
+  "batch_id": "20260923_142730_retail_nemotron-super",
+  "mode": "external",
+  "cases": [
+    {
+      "id": "0",
+      "label": "0",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "DB": 1.0,
+          "NL_ASSERTION": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_trials": 4,
+        "n_valid": 4,
+        "mean": 1.0,
+        "full_passes": 4,
+        "reward_basis": [
+          "DB",
+          "NL_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 4,
+      "hits": 4,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "1",
+      "label": "1",
+      "score": 1.0,
+      "metric": "reward",
+      "raw": {
+        "reward": 1.0,
+        "reward_breakdown": {
+          "DB": 1.0,
+          "NL_ASSERTION": 1.0
+        },
+        "rewards": [
+          1.0,
+          1.0,
+          1.0,
+          1.0
+        ],
+        "n_trials": 4,
+        "n_valid": 4,
+        "mean": 1.0,
+        "full_passes": 4,
+        "reward_basis": [
+          "DB",
+          "NL_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 4,
+      "hits": 4,
+      "rate": 1.0,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "2",
+      "label": "2",
+      "score": 0.25,
+      "metric": "reward",
+      "raw": {
+        "reward": 0.25,
+        "reward_breakdown": {
+          "DB": 0.0,
+          "NL_ASSERTION": 1.0
+        },
+        "rewards": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "n_trials": 4,
+        "n_valid": 4,
+        "mean": 0.25,
+        "full_passes": 1,
+        "reward_basis": [
+          "DB",
+          "NL_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 0.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 0.0
+          },
+          {
+            "DB": 0.0,
+            "NL_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 4,
+      "hits": 1,
+      "rate": 0.25,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "3",
+      "label": "3",
+      "score": 0.5,
+      "metric": "reward",
+      "raw": {
+        "reward": 0.5,
+        "reward_breakdown": {
+          "DB": 1.0,
+          "NL_ASSERTION": 1.0
+        },
+        "rewards": [
+          0.0,
+          0.0,
+          1.0,
+          1.0
+        ],
+        "n_trials": 4,
+        "n_valid": 4,
+        "mean": 0.5,
+        "full_passes": 2,
+        "reward_basis": [
+          "DB",
+          "NL_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 0.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 0.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 4,
+      "hits": 2,
+      "rate": 0.5,
+      "no_output": 0,
+      "collect_failed": 0
+    },
+    {
+      "id": "4",
+      "label": "4",
+      "score": 0.25,
+      "metric": "reward",
+      "raw": {
+        "reward": 0.25,
+        "reward_breakdown": {
+          "DB": 0.0,
+          "NL_ASSERTION": 0.0
+        },
+        "rewards": [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "n_trials": 4,
+        "n_valid": 4,
+        "mean": 0.25,
+        "full_passes": 1,
+        "reward_basis": [
+          "DB",
+          "NL_ASSERTION"
+        ],
+        "reward_breakdowns": [
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 1.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 0.0
+          },
+          {
+            "DB": 1.0,
+            "NL_ASSERTION": 0.0
+          },
+          {
+            "DB": 0.0,
+            "NL_ASSERTION": 0.0
+          }
+        ]
+      },
+      "ci": null,
+      "n": 4,
+      "hits": 1,
+      "rate": 0.25,
+      "no_output": 0,
+      "collect_failed": 0
+    }
+  ],
+  "counts": {
+    "runs": 20,
+    "valid": 20,
+    "invalid": 0,
+    "full_passes": 12
+  },
+  "evaluator": {
+    "evalkit_version": "0.3.0",
+    "suite_id": "tau.retail",
+    "suite_fingerprint": "sha256:684d8b35f20200f3",
+    "detectors_sha256": "sha256:f795a6ac61c8b2de"
+  },
+  "task_set": {
+    "path": "<tau-lab>/data/simulations/20260923_142730_retail_llm_agent_nemotron-3-super-120b-a12b:free_user_simulator_nemotron-3-super-120b-a12b:free/results.json",
+    "sha256": "sha256:16e9843b1189ee15",
+    "name": "tau.retail",
+    "n_tasks": 5
+  },
+  "agent": {
+    "name": "tau2",
+    "model": "openrouter/nvidia/nemotron-3-super-120b-a12b:free",
+    "adapter": null,
+    "adapter_version": "0.3.0"
+  },
+  "suite": {
+    "id": "tau.retail",
+    "title": "τ-bench retail（外部 reward 导入）",
+    "kind": "external",
+    "fingerprint": "sha256:684d8b35f20200f3"
+  },
+  "source": {
+    "kind": "tau2",
+    "results_path": "<tau-lab>/data/simulations/20260923_142730_retail_llm_agent_nemotron-3-super-120b-a12b:free_user_simulator_nemotron-3-super-120b-a12b:free/results.json",
+    "domain": "retail",
+    "num_trials": 4,
+    "seed": 300,
+    "git_commit": "unknown",
+    "timestamp": "2026-09-23T14:27:30.621456",
+    "imported_at": "2026-09-24T07:19:31+0800",
+    "agent_implementation": "llm_agent",
+    "user_llm": "openrouter/nvidia/nemotron-3-super-120b-a12b:free"
+  }
+}

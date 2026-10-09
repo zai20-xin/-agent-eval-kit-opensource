@@ -1,0 +1,16 @@
+{
+  "tag": "pilot",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "temp": 0.7,
+  "N": 10,
+  "errors": 0,
+  "elapsed_sec": 377.1,
+  "pass@1": 1.0,
+  "pass^3": 1.0,
+  "pass^5": 1.0,
+  "B10_状态保持率": 1.0,
+  "fail_modes": {},
+  "files_read_dist": {
+    "3": 10
+  }
+}

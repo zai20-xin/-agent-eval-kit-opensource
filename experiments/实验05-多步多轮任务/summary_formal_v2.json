@@ -1,0 +1,31 @@
+{
+  "tag": "formal_v2",
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "temp": 0.7,
+  "N": 29,
+  "data_dir": "data_v2",
+  "with_avg": true,
+  "expected": [
+    "西安",
+    "南京",
+    "北京",
+    "成都",
+    "武汉"
+  ],
+  "avg_truth": 31.2,
+  "errors": 1,
+  "N_round1": 29,
+  "N_round2": 29,
+  "elapsed_sec": 1323.2,
+  "pass@1": 1.0,
+  "pass^3": 1.0,
+  "pass^5": 1.0,
+  "B10_状态保持率": 1.0,
+  "fail_modes": {},
+  "files_read_dist": {
+    "3": 29
+  },
+  "avg_got_dist": {
+    "31.2": 29
+  }
+}

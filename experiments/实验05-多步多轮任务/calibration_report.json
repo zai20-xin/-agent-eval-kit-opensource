@@ -1,0 +1,60 @@
+{
+  "target": 0.75,
+  "tol": 0.15,
+  "model": "nvidia/nemotron-3.5-lightning:free",
+  "temp": 0.7,
+  "pilot_n": 2,
+  "elapsed_sec": 477.6,
+  "final": {
+    "n_files": 3,
+    "n_dry": 5,
+    "n_wet": 2,
+    "gap": 4
+  },
+  "history": [
+    {
+      "iter": 1,
+      "n_files": 3,
+      "n_dry": 5,
+      "n_wet": 4,
+      "gap": 2,
+      "pass@1": 1.0,
+      "expected": [
+        "成都",
+        "无锡",
+        "广州",
+        "南京",
+        "深圳"
+      ],
+      "avg": 31.0,
+      "fail_modes": {},
+      "N": 2,
+      "errors": 0,
+      "error": null,
+      "log": null
+    },
+    {
+      "iter": 2,
+      "n_files": 3,
+      "n_dry": 7,
+      "n_wet": 6,
+      "gap": 1,
+      "pass@1": 1.0,
+      "expected": [
+        "上海",
+        "广州",
+        "昆明",
+        "苏州",
+        "西安",
+        "重庆",
+        "南京"
+      ],
+      "avg": 32.0,
+      "fail_modes": {},
+      "N": 2,
+      "errors": 0,
+      "error": null,
+      "log": null
+    }
+  ]
+}
